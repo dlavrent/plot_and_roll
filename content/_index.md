@@ -4,7 +4,7 @@ sort_by = "date"
 template = "section.html"
 
 [extra]
-header = {title = "Welcome!", img = "img/twodists.png", img_alt = "two distributions... prior and posterior?" }
+header = {title = "Welcome!", img = "img/twodists_blueyellow.png", img_alt = "two distributions... prior and posterior?" }
 section_path= "blog/_index.md"
 max_posts = 4
 +++

@@ -33,7 +33,8 @@ highlight_theme = "css"
 smart_punctuation = true
 render_emoji = true
 
-
+# open external links in a new tab
+external_links_target_blank = true
 
 [link_checker]
 skip_anchor_prefixes = [
@@ -58,13 +59,14 @@ default_theme = "light"
 # contrast (in light theme) for readability and might not be suitable for all users.
 # Furthermore, low contrasting elements will affect your Google Lighthouse rating.
 # All other skins have optimal contrast.
-skin = "cavs"
+skin = "blueyellow"
 
 # Set browser theme colour. Can be a single colour or [light, dark].
 # Note: Bright colors may be ignored in dark mode.
 # More details: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color
 # browser_theme_color = "#087e96"
-browser_theme_color = ["#B9975B", "#6F263D"] # cavs colors
+# browser_theme_color = ["#B9975B", "#6F263D"] # cavs colors
+brower_theme_color = ["#1269bb", "#ffd500"] # blue yellow
 # browser_theme_color = ["#ffffff", "#000000"]  # Example of light/dark colours.
 
 # List additional stylesheets to load site-wide.
@@ -131,7 +133,7 @@ compact_tags = false
 invert_title_order = true
 
 # Full path after the base URL required. So if you were to place it in "static" it would be "/favicon.png"
-favicon = "img/twodists.png"
+favicon = "img/twodists_blueyellow.png"
 
 # Add an emoji here to use it as favicon.
 # Compatibility: https://caniuse.com/link-icon-svg
@@ -142,7 +144,7 @@ favicon = "img/twodists.png"
 # Read more: https://nikitahl.com/html-meta-tags-for-social-media
 # Using an image representative of each post is recommended. You can do so by setting this variable in the [extra] section of a post's front matter.
 # If a post doesn't have a social media card, the site's default, below, will be used.
-social_media_card = "img/twodists.png"
+social_media_card = "img/twodists_blueyellow.png"
 
 menu = [
     { name = "Web Apps", url = "webapps", trailing_slash = true},
