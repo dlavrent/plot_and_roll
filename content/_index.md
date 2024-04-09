@@ -9,8 +9,8 @@ section_path= "blog/_index.md"
 max_posts = 4
 +++
 
-Basketball-related data visualizations and modelling.
+A site with various basketball-related data visualizations and analyses.
 
 Check out my [Blog](blog/) for posts and the [Web Apps](webapps/) tab for interactive applications!
 
-I post on Twitter as well at [@plotandroll](https://twitter.com/plotandroll).
+You can find me on Twitter at [@plotandroll](https://twitter.com/plotandroll) or get in touch via [email](mailto:pnr@plotandroll.com).
