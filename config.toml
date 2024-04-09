@@ -147,12 +147,11 @@ favicon = "img/twodists_blueyellow.png"
 social_media_card = "img/two_dists_bball_crop.png"
 
 menu = [
+    { name = "About", url = "about", trailing_slash = true },
     { name = "Web Apps", url = "webapps", trailing_slash = true},
     { name = "Blog", url = "blog", trailing_slash = true },
     { name = "Archive", url = "archive", trailing_slash = true },
-    { name = "Tags", url = "tags", trailing_slash = true },
-    #{ name = "About", url = "about", trailing_slash = true },
-    
+    { name = "Tags", url = "tags", trailing_slash = true },    
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
