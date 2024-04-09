@@ -47,4 +47,4 @@ So, in all, I swapped out my manual parsing code with the data from the much mor
 
 I made a couple of stylistic changes to the plots compared to what I post on Twitter (now the away shift plot is on top of home, and I keep things in the AWAY @ HOME format as much as possible). You can choose from a couple different diverging color palettes and optionally put +/- differentials onto the shifts.
 
-Documentation is available on [GitHub](https://github.com/dlavrent/my_shiny_apps/tree/main/game_rotation_app). I am happy to hear feedback or answer any questions or field suggestions!
+The code for the Shiny app is available on [GitHub](https://github.com/dlavrent/my_shiny_apps/tree/main/game_rotation_app). I am happy to hear feedback or answer any questions or field suggestions! You can reach me on [Twitter](https://twitter.com/plotandroll) or via [email](mailto:pnr@plotandroll.com).
