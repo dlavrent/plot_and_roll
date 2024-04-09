@@ -13,4 +13,4 @@ Basketball-related data visualizations and modelling.
 
 Check out my [Blog](blog/) for posts and the [Web Apps](webapps/) tab for interactive applications!
 
-I post on Twitter as well at [@plotandroll]](https://twitter.com/plotandroll).
+I post on Twitter as well at [@plotandroll](https://twitter.com/plotandroll).
