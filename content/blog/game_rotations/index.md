@@ -1,6 +1,6 @@
 +++
 title = "Interactive Game Rotation Plots"
-date = 2024-04-07
+date = 2024-04-08
 description = "Web app for visualizing player shifts + lineups in any desired game this season"
 
 [taxonomies]
@@ -41,6 +41,10 @@ But also, a couple of weeks into the season, I learned about the [nba_api](https
 
 Perfect -- in/out times for each player stint, along with the point differential.
 
-So, I swapped out my manual parsing code with the data from the much more legit nba.com, took a few weeks to learn [Shiny Server](https://shiny.posit.co/py/) for Python, along with automating the accessing and storing of these `GameRotation` dataframes, and made the web app linked above.
+I was particularly inspired to try to make a web app after coming across this [blog post](https://blog.sradjoker.cc/posts/linux-shiny-1/) by [@SravanNBA](https://twitter.com/SravanNBA) (a great follow on Twitter!) -- the post made it much more approachable to get started with Shiny Server, and I was excited that I could keep all my code in Python.
 
-Documentation will come on GitHub, I promise -- but for now, please try out the web app, and I'm happy to hear feedback or answer any questions or field suggestions!
+So, in all, I swapped out my manual parsing code with the data from the much more legit nba.com using nba_api, automated the accessing and storing of the relevant game data, then I took a few weeks to learn [Shiny Server](https://shiny.posit.co/py/) for Python and wrangle with a virtual machine on Oracle Cloud (I didn't and haven't yet had to pay a dime, and again a hat tip to Sravan for mentioning this as a computing resource on [Twitter](https://x.com/SravanNBA/status/1753884937135259980)), and the result is the web app linked above.
+
+I made a couple of stylistic changes to the plots compared to what I post on Twitter (now the away shift plot is on top of home, and I keep things in the AWAY @ HOME format as much as possible). You can choose from a couple different diverging color palettes and optionally put +/- differentials onto the shifts.
+
+Documentation is available on [GitHub](https://github.com/dlavrent/my_shiny_apps/tree/main/game_rotation_app). I am happy to hear feedback or answer any questions or field suggestions!
