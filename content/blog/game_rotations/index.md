@@ -20,7 +20,9 @@ Generate (and customize) a rotation plot for a game of choice in the 2023-24 sea
 I've been [posting](https://twitter.com/d_lavrent/status/1719472374452486650) a plot like this after each Cavs game in the 2023-24 NBA season:
 ![Example rotation plot](img/nba_lineup_plot_2024-02-27_DAL-CLE_401585460.png "Example rotation plot")*Example rotation plot of the [Max Strus 59-foot buzzer beater](https://www.youtube.com/watch?v=9FjvUOttXMg&ab_channel=NBA) game*
 
-To do this, I used the excellent [SportsDataverse](https://sportsdataverse-py.sportsdataverse.org/) Python package to pull play-by-play information from a game using an ESPN ID (the numeric code you see in an ESPN boxscore, i.e. the `401585460` in [https://www.espn.com/nba/game/_/gameId/401585460/mavericks-cavaliers](https://www.espn.com/nba/game/_/gameId/401585460/mavericks-cavaliers)).
+These kinds of plots are also available on [PopcornMachine.Net](https://popcornmachine.net/), and in the 'Plus/Minus' tab for individual games on [Basketball Reference](https://www.basketball-reference.com).
+
+To make my own version, I used the excellent [SportsDataverse](https://sportsdataverse-py.sportsdataverse.org/) Python package to pull play-by-play information from a game using an ESPN ID (the numeric code you see in an ESPN boxscore, i.e. the `401585460` in [https://www.espn.com/nba/game/_/gameId/401585460/mavericks-cavaliers](https://www.espn.com/nba/game/_/gameId/401585460/mavericks-cavaliers)).
 
 From the play-by-play data, I parsed out substitution times for each player, and counted the game score at each substitution time to get +/-'s for each player shift. This worked pretty well, but I noted sometimes my +/- counts would occasionally be off by a point or two (I'm pretty sure I didn't manage some edge cases correctly like when players get subbed onto the floor during another player's free throws).
 
